@@ -1,0 +1,36 @@
+
+:root{
+    --font-color:#5f6368;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar {
+    font-family: sans-serif;
+    color: var(--font-color);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 2px 0 rgb(114, 114, 114);
+}
+.navbar  p{
+    margin: 0.2rem;
+}
+.logout__button{
+    display: flex;
+    align-items: center;
+}
+.logout__button > button {
+    margin: 0 1rem;
+}
